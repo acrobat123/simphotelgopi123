@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media screen and (max-width: 768px) {
+    .bg-container {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .nxtpage {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+        width: 100vw;
+        padding: 20px;
+
+    }
+
+    .nav-bar {
+        background-color: #db6363;
+        font-family: Bree Serif;
+    }
+
+    .list-items {
+        list-style-type: none;
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .menu-bar {
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+        margin-right: 20px;
+
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .robin-sticel-img {
+        background-size: cover;
+        width: 100vw;
+        height: 180px;
+    }
+
+    .bottom-heading {
+        font-size: 12px;
+    }
+
+    .bottom-para {
+        font-size: 8px;
+    }
+
+    .button-a {
+        border-style: solid;
+        background-color: #db6363;
+        border-width: 0px;
+        color: #ffffff;
+        font-size: 9px;
+        height: 25px;
+        width: 60px;
+    }
+
+    .description-box {
+        padding: 10px;
+    }
+
+    .imgBox {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image1 {
+        display: block;
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .image2 {
+        display: block;
+        height: 250px;
+        width: 120px;
+    }
+
+    .matter-box {
+        background-color: #db6363;
+        width: 60vw;
+        padding: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    .box-para {
+        font-size: 10px;
+    }
+
+    .box-heading {
+        font-size: 16px;
+    }
+
+    .arrow {
+        height: 8px;
+        width: 8px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .bg-container {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .nxtpage {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 70px;
+
+    }
+
+    .nav-bar-headings {
+        display: flex;
+    }
+
+    .nav-bar {
+        background-color: #db6363;
+        font-family: Bree Serif;
+    }
+
+    .list-items {
+        list-style-type: none;
+        font-size: 23px;
+        margin-left: 25px;
+    }
+
+    .menu-bar {
+        height: 40px;
+        width: 40px;
+        margin-top: 15px;
+        margin-right: 20px;
+
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .robin-sticel-img {
+        background-size: cover;
+        width: 500px;
+        height: 500px;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 30px;
+    }
+
+    .bottom-heading {
+        font-size: 45px;
+    }
+
+    .bottom-para {
+        font-size: 17px;
+    }
+
+    .button-a {
+        border-style: solid;
+        background-color: #db6363;
+        border-width: 0px;
+        color: #ffffff;
+        font-size: 17px;
+        height: 45px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .description-box {
+        padding: 10px;
+        margin-top: 30px;
+
+    }
+
+    .imgBox {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image1 {
+        display: block;
+        height: 180px;
+        width: 180px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .image2 {
+        display: block;
+        height: 370px;
+        width: 180px;
+    }
+
+    .matter-box {
+        background-color: #db6363;
+        padding: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 30px;
+        width: 25vw;
+    }
+
+    .box-para {
+        font-size: 20px;
+    }
+
+    .box-heading {
+        font-size: 35px;
+    }
+
+    .arrow {
+        height: 12px;
+        width: 12px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .bg-container {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .nxtpage {
+        background-image: linear-gradient(to right, #e0c67e, #eb98a9);
+        font-family: Roboto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 70px;
+
+    }
+
+    .nav-bar-headings {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-bar {
+        background-color: #db6363;
+        font-family: Bree Serif;
+    }
+
+    .list-items {
+        list-style-type: none;
+        font-size: 32px;
+        margin-left: 40px;
+    }
+
+    .menu-bar {
+        height: 50px;
+        width: 50px;
+        margin-top: 15px;
+        margin-right: 20px;
+
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .robin-sticel-img {
+        background-size: cover;
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .bottom-container {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 30px;
+    }
+
+    .bottom-heading {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .bottom-para {
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    .button-a {
+        border-style: solid;
+        background-color: #db6363;
+        border-width: 0px;
+        color: #ffffff;
+        font-size: 17px;
+        height: 45px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .description-box {
+        padding: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .imgBox {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .image1 {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .image2 {
+        display: block;
+        height: 310px;
+        width: 150px;
+    }
+
+    .matter-box {
+        background-color: #db6363;
+        padding: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 30px;
+        width: 25vw;
+
+    }
+
+    .box-para {
+        font-size: 13px;
+    }
+
+    .box-heading {
+        font-size: 30px;
+    }
+
+    .arrow {
+        height: 13px;
+        width: 13px;
+        padding-top: 5px;
+    }
+}
